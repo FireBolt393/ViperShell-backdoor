@@ -1,0 +1,6 @@
+opencv-python
+pyaudio
+pillow
+keyboard
+requests
+colorama
