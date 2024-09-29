@@ -3,7 +3,7 @@
 
 # ViperShell Backdoor
 
-**ViperShell** is a Python-based backdoor designed for remote control over a victim's machine, featuring a terminal interface styled to mimic the look and feel of Kali Linux. This tool offers a variety of features to manage and monitor the system from a distance, ranging from capturing webcam images to running Python scripts on the victim's machine.
+**ViperShell** is a Python-based backdoor designed for remote control over a victim's machine, featuring a terminal interface styled to mimic the look and feel of Kali Linux. This tool offers a variety of features to manage and monitor the system from a distance, ranging from capturing webcam images to running Python scripts on the victim's machine. Unlike the meterpreter backdoor, ViperShell keeps retrying until it connects to the listener. This rules out the situation where the listener should be started before the payload is begun.
 
 ## Features
 
@@ -26,7 +26,7 @@
 
 ### Code Execution:
 - `-scr`, `--SCRIPT`: Executes custom Python or batch code on the victim’s machine.
-- Code can be loaded from `.py` and `bat` files only.
+- Code can be loaded from `.py` and `.bat` files only.
 - All `print` outputs are sent back to the user and are not shown on the victim's machine.
 
 ### Camera and Screenshot:
