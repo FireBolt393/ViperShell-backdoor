@@ -1,0 +1,47 @@
+KEYS                        <key> PARAMETER
+
+All alpha-numeric keys      (A-Z, a-z, 1-0)
+Symbols without shift key   -, =, ; etc
+Symbols with shift key      {!: shift+1, @: shift+2, #: shift+3, etc..}
+Shift                       shift
+Ctrl                        ctrl
+Alt                         alt
+Delete                      delete
+Enter                       enter
+Esc                         esc
+Tab                         tab
+Backspace                   backspace
+Insert                      insert
+Home                        home
+End                         end
+Page Up                     pageup
+Page Down                   pagedown
+Arrow Up                    arrowup
+Arrow Down                  arrowdown
+Arrow Left                  arrowleft
+Arrow Right                 arrowright
+Caps Lock                   capslock
+Num Lock                    numlock
+Scroll Lock                 scrolllock
+Print Screen                printscreen
+Pause/Break                 pause
+Function Keys (F1-F12)      (f1 - f12)
+
+EXAMPLE USAGE:
+To trigger a single key, say 'A': -k A `OR` --KEY A
+To trigger multiple key combinations, say 'alt + f4': -k alt+f4 `OR` --KEY alt+f4
+To trigger symbols that do not require shift key, say '=': -k = `OR` --KEY =
+To trigger symbols that require shift key, say '!': -k shift+1 `OR` --KEY shift+1
+
+WARNING: DO NOT ADD WHITE SPACES BETWEEN THE KEY AND + FOR TRIGGERING MULTIPLE KEYS!
+
+Some combination that MIGHT not work due to security reasons:
+
+KEY COMBINATION                       REASON
+
+Ctrl + Alt + Delete      Opens Windows Security screen; security measure.
+Windows Key + L          Locks the computer; restricted for security.
+Alt + Tab                Switches between open applications; limited control.
+Ctrl + Esc               Opens the Start menu; behavior may vary.
+Ctrl + Shift + N         Creates a new folder in Windows Explorer; may work, but depends on context.
+Alt + Space              Opens the window menu; may have restricted access.

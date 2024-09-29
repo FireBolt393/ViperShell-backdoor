@@ -1,0 +1,23 @@
+print(f"""       
+{Fore.LIGHTCYAN_EX}Should not be used for illegal purposes. All rights reserved©.
+
+        ⣀⣠⠤⠔⠒⠲⠶⠤⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢀⣔⣟⢋⡥⢔⡎⢀⢈⠁⠀⠀⠙⠳⢄⠀⠀⠀⠀⠀⠀⠀⠀
+⢠⣄⠀⠀⣞⡟⡡⠀⢠⢫⣧⡏⢧⡢⠄⣀⠀⠀⠀⠳⡄⠀⠀⠀⠀⠀⠀
+⠈⣿⣷⣼⠏⠈⠀⢀⣧⣾⡋⢣⠀⠈⠒⢌⣲⢤⠢⡀⢹⡄⠀⠀⠀⠀⠀
+⠀⣿⣿⠃⠀⣀⠀⡞⣸⣿⣷⠈⢄⠀⠀⠀⠀⠱⡵⣰⠀⡇⠀⠀⠀⠀⠀
+⡄⢹⣿⠀⠐⢹⢀⢵⣿⣻⣿⡄⠸⡀⠀⠀⠀⠀⠈⣇⣷⡆⠀⠀⠀⠀⠀
+⠈⡾⡟⠀⢀⠂⠸⣿⣻⣿⣿⣿⣦⠱⠤⣀⣀⣀⣀⠸⣸⡇⠀⠀⠀⠀⠀           {Fore.RED}██▒   █▓ ██▓ ██▓███  ▓█████  ██▀███    ██████  ██░ ██ ▓█████  ██▓     ██▓{Style.RESET_ALL}     
+{Fore.LIGHTCYAN_EX}⠀⠓⡄⠀⢸⣆⢐⣿⣿⣿⣿⣿⣿⣷⣦⣤⣤⣤⣤⣑⣯⠁⠀⠀⠀⠀⠀          {Fore.RED}▓██░   █▒▓██▒▓██░  ██▒▓█   ▀ ▓██ ▒ ██▒▒██    ▒ ▓██░ ██▒▓█   ▀ ▓██▒    ▓██▒{Style.RESET_ALL}    
+{Fore.LIGHTCYAN_EX}⣀⠀⠃⠀⠈⣿⡆⢿⣿⣿⣿⣿⣿⠋⣼⠙⢹⡘⡏⠛⢻⠀⠀⠀⠀⠀⠀           {Fore.RED}▓██  █▒░▒██▒▓██░ ██▓▒▒███   ▓██ ░▄█ ▒░ ▓██▄   ▒██▀▀██░▒███   ▒██░    ▒██░{Style.RESET_ALL}     
+{Fore.LIGHTCYAN_EX}⠛⢋⠦⠂⠀⢸⡏⣎⣯⣿⣿⣿⣿⡎⠀⡀⢷⢳⡆⣇⣸⠀⠀⠀⠀⠀⠀            {Fore.RED}▒██ █░░░██░▒██▄█▓▒ ▒▒▓█  ▄ ▒██▀▀█▄    ▒   ██▒░▓█ ░██ ▒▓█  ▄ ▒██░    ▒██░{Style.RESET_ALL}    
+{Fore.LIGHTCYAN_EX}⠀⣸⣀⡴⠊⣿⡅⢸⣺⣿⣿⣿⣿⣷⣄⠁⠘⠫⠹⠹⠛⠀⠀⠀⢄⠀⠀             {Fore.RED}▒▀█░  ░██░▒██▒ ░  ░░▒████▒░██▓ ▒██▒▒██████▒▒░▓█▒░██▓░▒████▒░██████▒░██████▒{Style.RESET_ALL}
+{Fore.LIGHTCYAN_EX}⠀⢹⠛⠀⣼⣿⣷⠀⣿⣿⣿⣿⣿⡙⠯⣟⠶⡄⠀⠀⠀⠀⠀⠀ ⠈⢣              {Fore.RED}░ ▐░  ░▓  ▒▓▒░ ░  ░░░ ▒░ ░░ ▒▓ ░▒▓░▒ ▒▓▒ ▒ ░ ▒ ░░▒░▒░░ ▒░ ░░ ▒░▓  ░░ ▒░▓  ░{Style.RESET_ALL}
+{Fore.LIGHTCYAN_EX}⠔⠁⣠⡼⠛⠛⠛⢆⠘⣷⣿⣿⣿⣿⣷⣧⣑⢟⣆⠀⠀⠀⠀⠀⠀⠀⣧              {Fore.RED}░ ░░   ▒ ░░▒ ░      ░ ░  ░  ░▒ ░ ▒░░ ░▒  ░ ░ ▒ ░▒░ ░ ░ ░  ░░ ░ ▒  ░░ ░ ▒  ░{Style.RESET_ALL}       
+{Fore.LIGHTCYAN_EX}⠀⢠⡞⠀⠀⠀⠀⠀⢲⠸⣿⣓⣿⣿⣿⣿⣿⣄⣻⡄⠀⠀⠀⠀⠀⠀ ⣿                {Fore.RED}░░   ▒ ░░░          ░     ░░   ░ ░  ░  ░   ░  ░░ ░   ░     ░ ░     ░ ░{Style.RESET_ALL}                            
+{Fore.LIGHTCYAN_EX}⢠⢜⡇⠀⠀⠀⠀⠀⠈⢇⠘⣿⡿⡿⣿⣿⣷⣎⢎⢳⡀⠀⠀⠀⠀⢠⡿                              
+{Fore.LIGHTCYAN_EX}⠂⢼⠀⠀⠀⠀⠀⠀⠀⠈⢧⠘⣿⣾⡹⣽⣿⣿⣿⡣⡑⢄⣀⣠⣴⠟⢁                                     {Fore.LIGHTRED_EX}We know why you are here{Style.RESET_ALL}
+{Fore.LIGHTCYAN_EX}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣇⠈⠛⢻⣿⣯⣿⣻⠗⠉⠑⠒⠋⡅⢠⠂                            {Fore.LIGHTRED_EX} Unlock the shadows, command the unknown{Style.RESET_ALL}
+{Fore.LIGHTCYAN_EX}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣤⠀⠈⠻⣿⠉⠀⠀⠀⠀⢸⡷⠆⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀{Style.RESET_ALL}
+""")
