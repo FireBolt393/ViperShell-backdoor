@@ -26,7 +26,7 @@
 
 ### Code Execution:
 - `-scr`, `--SCRIPT`: Executes custom Python or batch code on the victim’s machine.
-- Code can be loaded from `.py` or `.txt` or `bat` files.
+- Code can be loaded from `.py` and `bat` files only.
 - All `print` outputs are sent back to the user and are not shown on the victim's machine.
 
 ### Camera and Screenshot:
